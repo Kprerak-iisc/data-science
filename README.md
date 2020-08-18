@@ -16,5 +16,10 @@ It is a digit recognition task. As such there are 10 digits (0 to 9) or 10 class
 Monet2photo_cyclegan.ipynb : Dataset: https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/
 Studied the construct and the underlying architecture of simple GAN and CycleGAN. Implemented CycleGAN model for Painting style neural transfer using ‘monet2photo’ dataset which generated images of photos from images of Monet paintings, and vice-versa in absence of one-to-one correspondence between input and output images. 
 
+cifar_10_imageclassification.ipynb: Dataset: https://www.cs.toronto.edu/~kriz/cifar.html
+CIFAR-10 (Canadian Institute For Advanced Research) is the “hello world” type dataset of computer vision. Used deep leaning Convolutional neural network to build the model using Keras API for Image Classification with 88.6% accuracy on test set.
+
+
+
 
 
