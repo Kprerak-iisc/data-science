@@ -26,6 +26,12 @@ cred_bal.ipynb: Dataset: https://rdrr.io/cran/ISLR/man/Credit.html
 cyclegan_1.ipynb:  Dataset: https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/horse2zebra.zip
 Applied CycleGAN model on the Horse Zebra   dataset used by Zhu et al. (Research Paper: https://arxiv.org/abs/1703.10593) in keras
  
+fraud.ipynb: Dataset: https://www.kaggle.com/mlg-ulb/creditcardfraud
+•	Developed various predictive models to compare their efficiency in detecting fraudulent transactions based on their F1 score.
+•	Applied SMOTE for oversampling the minority class and used Logistic regression, K-nearest neighbour, support vector classifier and decision tree classifier.
+•	Used Principal component analysis(PCA) and t-SNE for clustering fraudulent transactions and non-fraudulent transactions separately.
+•	Best result: XGBoost classifier was able to detect more than 80% fraud transactions without classifying a lot of non-frauds as fraudulent.
+
 
 
 
