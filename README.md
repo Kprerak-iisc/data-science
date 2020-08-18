@@ -13,5 +13,8 @@ Mnsit_CNN.ipynb : Dataset: http://yann.lecun.com/exdb/mnist/
 The MNIST problem is a dataset developed by Yann LeCun, Corinna Cortes and Christopher Burges for evaluating machine learning models on the handwritten digit classification problem. The dataset was constructed from a number of scanned document dataset available from the National Institute of Standards and Technology (NIST). This is where the name for the dataset comes from, as the Modified NIST or MNIST dataset. Each image is a 28 by 28 pixel square (784 pixels total). A standard split of the dataset is used to evaluate and compare models, where 60,000 images are used to train a model and a separate set of 10,000 images are used to test it.
 It is a digit recognition task. As such there are 10 digits (0 to 9) or 10 classes to predict. Results are reported using prediction error. Convolutional Neural Networks has been used in the model to obtain prediction error of less than 1%.
 
+Monet2photo_cyclegan.ipynb : Dataset: https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/
+Studied the construct and the underlying architecture of simple GAN and CycleGAN. Implemented CycleGAN model for Painting style neural transfer using ‘monet2photo’ dataset which generated images of photos from images of Monet paintings, and vice-versa in absence of one-to-one correspondence between input and output images. 
+
 
 
