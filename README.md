@@ -33,6 +33,9 @@ fraud.ipynb: Dataset: https://www.kaggle.com/mlg-ulb/creditcardfraud
 •	Best result: XGBoost classifier was able to detect more than 80% fraud transactions without classifying a lot of non-frauds as fraudulent.
 
 
+trade.r : dataset: http://mgmt.iisc.ac.in/CM/MG222/Data_Files/gdp.data
+•	Built an appropriate SARIMA model to model the trend and seasonality present in the time series data of Quarterly GDP of India from 1996-97:Q1 to 2013-14:Q2. Validated if the residuals of the model satisfied all the assumptions using graphical and statistical methods
+•	Forecasted the GDP next 4 Quarters using the fitted model with Mean Absolute Percentage Error(MAPE) equal to 2.18%
 
 
 
