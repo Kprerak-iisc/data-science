@@ -19,6 +19,9 @@ Studied the construct and the underlying architecture of simple GAN and CycleGAN
 cifar_10_imageclassification.ipynb: Dataset: https://www.cs.toronto.edu/~kriz/cifar.html
 CIFAR-10 (Canadian Institute For Advanced Research) is the “hello world” type dataset of computer vision. Used deep leaning Convolutional neural network to build the model using Keras API for Image Classification with 88.6% accuracy on test set.
 
+cred_bal.ipynb: https://rdrr.io/cran/ISLR/man/Credit.html
+•	Objective: Analyze the dataset consisting of information from credit card holders to comprehend which factors influence the Credit Card Balance of a cardholder, and to predict the average Balance of a given individual. 
+•	Carried out EDA of the dataset, followed by feature selection and regression analysis to build a model which explains 96% variance. 
 
 
 
