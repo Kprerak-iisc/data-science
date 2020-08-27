@@ -6,6 +6,19 @@ NLP: Contains projects related to Natural Lnaguage Processing
 BiDAF_QA_SQuAD.ipynb : Dataset: https://github.com/rajpurkar/SQuAD-explorer/tree/master/dataset
 Implemented Bi-directional attention flow(BiDAF) network from scratch as proposed in Minjoon Seo et. Al on Stanford Question Answering Dataset v1.1 to build a closed-domain, extractive Q&A model which can extract a span of text from the context as the answer.
 
+Nmt_seq2seq: Neural machine translation from English to German and again back to English from German.
+dataset: http://www.manythings.org/anki/deu-eng.zip 
+• Implemented Encoder- decoder based Sequence-to-Sequence (seq2seq) model on only 20k data out of over 150,000 data due to less computational power. 
+• For the encoder, I used an embedding layer and an LSTM layer
+• For the decoder, I used another LSTM layer followed by a dense layer
+
+Topic_modeling_consumers:  Discovering Hidden Semantic Structures of Texts from Large Corpus of Documents
+Dataset: https://drive.google.com/file/d/141NT1NvZGaBPPzdXStsATJzLZYa77uTw/view?usp=sharing
+
+• Developed a probabilistic model to cluster the abstract topics present in Consumer complaints in Financial domain from CFPB website.
+• Used Reg-ex based text regularization, Stop words removal, Stemming for pre-processing and Tfidf Vectorizer to build featurevector.
+• Implemented Topic Modeling using Latent Dirichlet Allocation (LDA) to classify each consumer complaints into one of the six topics.
+
 Topic Modeling using Latent Dirichlet Allocation (LDA) on https://www.kaggle.com/benhamner/nips-papers dataset.
 
 
