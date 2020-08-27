@@ -14,7 +14,6 @@ dataset: http://www.manythings.org/anki/deu-eng.zip
 
 Topic_modeling_consumers:  Discovering Hidden Semantic Structures of Texts from Large Corpus of Documents
 Dataset: https://drive.google.com/file/d/141NT1NvZGaBPPzdXStsATJzLZYa77uTw/view?usp=sharing
-
 • Developed a probabilistic model to cluster the abstract topics present in Consumer complaints in Financial domain from CFPB website.
 • Used Reg-ex based text regularization, Stop words removal, Stemming for pre-processing and Tfidf Vectorizer to build featurevector.
 • Implemented Topic Modeling using Latent Dirichlet Allocation (LDA) to classify each consumer complaints into one of the six topics.
